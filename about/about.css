@@ -1,0 +1,27 @@
+body{
+color: rgba(245, 245, 245, 0.829);
+/* background-color: rgb(197, 192, 192); */
+font-family: 'Gloock', serif;
+background-image: url(/images/aboutbg.jpg);
+background-repeat: no-repeat;
+background-size: 200rem;
+}
+
+.top{
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 70px;
+}
+
+p{
+    font-size: 30px;
+}
+
+hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(252, 252, 252, 0.89);
+}

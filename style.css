@@ -1,0 +1,298 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+body {
+    margin: 0%;
+    padding: 0%;
+
+}
+/* navbar items */
+
+.nav-logo {
+    
+    width: 15%;
+    display: inline-block;
+    position:fixed;
+    left: 0;
+    top:0;
+}
+
+@media only screen and (max-width: 576px) {
+  .nav-logo {
+      width: 25%;
+      position: absolute;
+      left: 300px;
+      
+  }
+}
+
+.navbarwhole {
+  margin-bottom: 5%;
+}
+
+.list {
+  margin-top: 2%;
+  margin-left: 55%;
+}
+
+.nav-item {
+
+  letter-spacing: 3px;
+  margin: 1%;
+  font-size: 20px;
+  
+}
+
+#home-page {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-image: url(/images/bg5.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  background-attachment: scroll;
+  
+}
+
+#slogan {
+  color:black;
+  font-size: 60px;
+  margin-top: 10%;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+  display: inline-flex;
+  height: 50px;
+  padding: 0px;
+  overflow: hidden;
+  font-size: 26px;
+  font-weight: 500;
+  width: 250px;
+  height: 70px;
+  justify-content: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  border-color: white;
+  /* margin-left: 20%; */
+}
+
+#button_text {
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 8%;
+}
+#button_icon {
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 6%;
+  font-size: 33px;
+}
+#button_text:hover,
+#button_icon:hover {
+  color: rgba(0, 0, 0, 1);
+}
+.button:hover {
+  cursor: pointer;
+}
+
+.location_search {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  margin-top: -20px;
+  gap: 10px;
+}
+.location_search form {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.location_search input {
+  border: none;
+  outline: none;
+  flex: 0.9;
+  font-size: 23px;
+}
+
+.fa-search {
+  align-self: center;
+  padding: 10px 20px;
+  color: grey;
+}
+.categories {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+.categories a {
+  font-size: 18px;
+  color: rgb(12, 12, 12);
+}
+.categories p {
+  color: rgb(8, 8, 8);
+  margin-top: 0px;
+  margin-left: 0.5%;
+}
+.category_1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 25%;
+  /* margin:3% 20%; */
+  margin: auto;
+  width: 60%;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  margin-top: 7%;
+}
+.button_1 {
+  height: 70%;
+  width: 80%;
+  margin: 10% 10%;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.category_1 > a {
+  text-decoration: none;
+  color: black;
+}
+
+.button_1 input {
+  padding: 3% 30%;
+}
+.button_1 p {
+  margin-top: 2%;
+  font-weight: 545;
+  text-align: center;
+}
+.button_1:hover {
+  background-color: gainsboro;
+}
+
+#home_service_line {
+  text-align: center;
+  margin-top: 180px;
+  margin-bottom: 80px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+hr {
+  border: none;
+  outline: none;
+  height: 15px;
+  background: rgb(228, 231, 233);
+  width: 100%;
+  margin-bottom: 80px;
+}
+.category_launches_newCat > p {
+  text-align: center;
+
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.category_launches_content {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.category_launches_content input {
+  margin: 20px 20px;
+  border-radius: 10px;
+}
+
+.category_launches_content p {
+  text-align: center;
+  font-weight: 500;
+}
+
+.category_launches_content .offers {
+  color: rgb(120, 118, 118);
+}
+.button_2 input:hover {
+  cursor: pointer;
+
+  transform: scale(1.1, 1.1);
+}
+
+
+  /*Footer Starting */
+.footer {
+  margin-top: 120px;
+  width: 100%;
+  height: 380px;
+  background-color: black;
+}
+.serving_in {
+  margin-bottom: 2rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.place_ {
+  margin-right: 50px;
+  color: rgb(89, 86, 86);
+  font-weight: 550;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+.place_:hover {
+  cursor: pointer;
+  color: cornsilk;
+}
+
+.footer hr {
+  height: 1px;
+  margin-left: 5%;
+  color: aliceblue;
+  width: 90%;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 27px;
+  width: 43px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background:rgb(250, 67, 98);
+  color: white;
+}
