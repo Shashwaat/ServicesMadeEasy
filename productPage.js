@@ -1,15 +1,13 @@
 var bestseller = [
     {
       pack: "PACKAGE",
-      name: "Full chocolate | chocolate roll-on waxing",
+      name: "roll-on waxing",
       rating: "4.77(293.9k)",
       price: 849,
       strikeprice: 899,
       time: "1 hrs 5 mins",
       discount: " ₹50% off above 499",
       thread1: "Eyebrow threading",
-      thread2: "Upper lip threading",
-      thread3: "Chocolate full arms, underarms, full legs",
       thread4: "",
       thread5: "",
     },
@@ -21,7 +19,7 @@ var bestseller = [
       strikeprice: 1759,
       time: "1 hrs 25 mins",
       discount: "",
-      thread1: "Upper lip threading",
+      thread1: "Upper threading",
       thread2: "O3+ shine && glow facial",
       thread3: "",
       thread4: "",
@@ -118,177 +116,6 @@ var bestseller = [
       thread7: "Upper lip threading",
     },
   ];
-  var waxing = [
-    {
-      name: "Roll-on special(full arms + full legs + underarms)",
-      rating: "4.81(4.5k)",
-      price: 849,
-      strikeprice:999,
-      image_url:
-        "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100975526-deeb14.png",
-      thread1: "choose from chocolate Roll-on & RICA Roll-on",
-      thread2: "We use RICA peel-off for underarm waxing",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
-  
-    },
-    {
-      name: "Full arms + Underarms",
-      rating: "4.78(45.2k)",
-      price: 309,
-      strikeprice:400,
-      image_url:
-        "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100969960-ef6f74.png",
-      thread1: "We use RICA peel-off for underarm waxing",
-      thread2: "",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
-    },
-    {
-      name: "Full legs waxing",
-      rating: "4.81(29.5k)",
-      price: 349,
-      strikeprice:479,
-      image_url:
-        "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100965594-2ddc55.png",
-      thread1: "",
-      thread2: "",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
-    },
-    {
-      name: "Full body",
-      rating: "4.81(4.8k)",
-      price: 1399,
-      strikeprice:1599,
-      image_url:
-        "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100967218-f08380.png",
-      thread1: "choose full arms, full legs, underarms, chest, stomack & back",
-      thread2: "",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
-    },
-    {
-      name: "Stomach",
-      rating: "4.76(3.4k)",
-      price: 299,
-      strikeprice:399,
-      image_url:
-        "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100955968-c5b3f1.png",
-      thread1: "choose area below bust to pievis",
-      thread2: "",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
-    },
-    {
-      name: "Back",
-      rating: "4.80(1.7k)",
-      price: 499,
-      strikeprice:599,
-      image_url:
-        "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100988948-0b5dcc.png",
-      thread1: "cove the area from sholder to pelvis",
-      thread2: "",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
-    },
-    {
-      name: "Underarms",
-      rating: "4.74(14.3k)",
-      price: 49,
-      strikeprice:79,
-      image_url:
-        "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/supply/customer-app-supply/1655288839372-c90f8e.png",
-      thread1: "choose from RICA peel-off & honey wax",
-      thread2: "",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
-    },
-    {
-      name: "Bikini",
-      rating: "4.82(10.5k)",
-      price: 949,
-      strikeprice:1099,
-      image_url:
-        "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100982244-701c4a.png",
-      thread1: "choose from RICA peel-off & honey wax",
-      thread2: "cover the entire pelvis area",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
-    },
-    {
-      name: "Bikini line",
-      rating: "4.82(682)",
-      price: 249,
-      strikeprice:347,
-      image_url:
-        "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/supply/customer-app-supply/1655288871618-0d6809.png",
-      thread1: "choose from RICA peel-off & honey wax",
-      thread2: "only cover the entire peivis around area(not the pelvis)",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
-    },
-    {
-      name: "Half legs waxing",
-      rating: "4.75(32.4k)",
-      price: 199,
-      strikeprice:249,
-      image_url:
-        "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100956556-058979.png",
-      thread1: "choose from regular RICA & honey wax",
-      thread2: "",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
-    },
-    {
-      name: "Half arms",
-      rating: "4.75(6.7k)",
-      price: 199,
-      strikeprice:249,
-      image_url:
-        "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1657100957815-f15ff6.png",
-      thread1: "choose from regular RICA & honey wax",
-      thread2: "",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
-    },
-    {
-      name: "Face wax",
-      rating: "4.77(22.2k)",
-      price: 69,
-      strikeprice:89,
-      image_url:"https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto,w_96,dpr_1,h_96,fl_progressive:steep,q_auto/images/growth/luminosity/1658988752247-347188.png",
-      thread1:"RICA peel-off wax to remove even the tiniest, hard to remove hair",
-      thread2: "Recommonded of all skin type, perticular skin type",
-      thread3: "",
-      thread4: "",
-      thread5: "",
-      thread6: "",
-    },
-  ];
-  
   var facial = [
     {
       name: "Cleanups",
@@ -592,10 +419,10 @@ var bestseller = [
   
   function bestsellerdisplay() {
     var section = document.createElement("section");
-    section.setAttribute("id", "bestsellar");
+    section.setAttribute("id", "bestseller");
     var head = document.createElement("h1");
     head.setAttribute("id", "heading");
-    head.innerText = "Bestseller bestseller";
+    head.innerText = "Bestseller Services";
     section.append(head);
     bestseller.map(function (elem) {
       var parentdiv = document.createElement("div");
