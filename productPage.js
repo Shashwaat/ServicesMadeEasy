@@ -82,6 +82,8 @@ var bestseller = [
       thread5: "",
     },
   ];
+
+  //own package
   var makeYourOwnPackage = [
     {
       pack: "PACKAGE",
@@ -116,6 +118,7 @@ var bestseller = [
       thread7: "Upper lip threading",
     },
   ];
+  //facial package
   var facial = [
     {
       name: "Cleanups",
