@@ -177,6 +177,7 @@ var bestseller = [
       thread6: "",
     },
   ];
+  //manicure 
   var manicure = [
     {
         name: "Cut, file & polish(hands) ",
@@ -193,6 +194,7 @@ var bestseller = [
       thread5: "",
       thread6: "",
     },
+    
     {
         name: "Elysian britis rose manicure",
         rating: "4.71(20.2k)",
@@ -301,6 +303,7 @@ var bestseller = [
       thread6: "",
     }
   ]
+  //Threading
   var threading = [
     {
         name: "Face wax",
@@ -331,6 +334,8 @@ var bestseller = [
         thread6: "",
     }
   ]
+
+  //Bleach
   var bleach = [
     {
         name: "Bleach",
@@ -474,7 +479,7 @@ var bestseller = [
       document.getElementById("productcart").append(section);
     });
   }
-  
+  //functions
   function makeyourownpackageDisplay() {
     var section = document.createElement("section");
     section.setAttribute("id", "makeyourownpackage");
