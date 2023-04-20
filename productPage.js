@@ -241,6 +241,7 @@ var bestseller = [
       thread6: "",
     }
   ]
+  //pedicure
   var pedicure = [
     {
         name: "Cut, file & polis(feets) ",
@@ -534,7 +535,7 @@ var bestseller = [
       document.getElementById("productcart").append(section);
     });
   }
-  
+  //waxing dipslay
   function waxingdisplay() {
     var section = document.createElement("section");
     section.setAttribute("id", "waxing");
