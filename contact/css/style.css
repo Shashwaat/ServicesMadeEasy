@@ -13,7 +13,7 @@ body {
     left: 0;
     right: 0;
     background: #8bbabb; }
-
+/* styling all the h tags */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Roboto", sans-serif;
@@ -31,11 +31,11 @@ a {
 
 .content {
   padding: 7rem 0; }
-
+/* heading */
 .heading {
   font-size: 2.5rem;
   font-weight: 900; }
-
+/* form control */
 .form-control {
   border: none;
   border-bottom: 1px solid #ccc;
@@ -48,7 +48,7 @@ a {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-color: #000; }
-
+/* colformlabel */
 .col-form-label {
   color: #000;
   font-size: 13px; }
