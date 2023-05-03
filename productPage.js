@@ -318,7 +318,7 @@ var bestseller = [
         image_url:
         "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/images/growth/luminosity/1658988752247-347188.png",
         thread1:"RICA peel-off wax to remove even the tiniest, hard to remove hair ",
-        thread2: "recommonded to all skin type, peticular sensitive skin",
+        thread2: "recommonded to all",
       thread3: "",
       thread4: "",
       thread5: "",
