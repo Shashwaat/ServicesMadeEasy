@@ -83,7 +83,7 @@ var bestseller = [
     },
   ];
 
-  //own package
+  
   var makeYourOwnPackage = [
     {
       pack: "PACKAGE",
@@ -118,7 +118,8 @@ var bestseller = [
       thread7: "Upper lip threading",
     },
   ];
-  //facial package
+
+
   var facial = [
     {
       name: "Cleanups",
@@ -241,7 +242,8 @@ var bestseller = [
       thread6: "",
     }
   ]
-  //pedicure
+  
+
   var pedicure = [
     {
         name: "Cut, file & polis(feets) ",
@@ -304,7 +306,9 @@ var bestseller = [
       thread6: "",
     }
   ]
-  //Threading
+  
+  
+
   var threading = [
     {
         name: "Face wax",
@@ -535,7 +539,7 @@ var bestseller = [
       document.getElementById("productcart").append(section);
     });
   }
-  //waxing dipslay
+
   function waxingdisplay() {
     var section = document.createElement("section");
     section.setAttribute("id", "waxing");
