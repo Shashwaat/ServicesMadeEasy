@@ -340,7 +340,7 @@ var bestseller = [
     }
   ]
 
-  //Bleach
+  
   var bleach = [
     {
         name: "Bleach",
@@ -425,7 +425,6 @@ var bestseller = [
   bleachdisplay();
   haircolourdisplay();
   
-  //event & localStorage
   var cartpage=JSON.parse(localStorage.getItem("items"))||[];
   var total=(localStorage.getItem("totalvalue"))||0;
   
