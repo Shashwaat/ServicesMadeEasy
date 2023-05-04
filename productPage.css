@@ -131,10 +131,10 @@ body {
     font-weight: bolder;
   }
   .packagecolor {
-    color: green;
+    color: rgb(32, 114, 32);
   }
   #parentdiv {
-    border-bottom: 2px solid rgb(224, 216, 216);
+    border-bottom: 2px solid rgb(160, 159, 159);
   }
   #productcart {
     width: 50%;
