@@ -84,20 +84,20 @@ border-radius: 20px;}
 
 .contact-wrap {
   -webkit-box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0px 20px 0 rgba(124, 13, 13, 0.2); }
+  box-shadow: 0 0px 20px 0 rgba(175, 6, 6, 0.2); }
   .contact-wrap .col-form-label {
     font-size: 14px;
-    color: #4d4040;
+    color: #460000;
     margin: 0 0 10px 0;
     display: inline-block;
     padding: 0; }
   .contact-wrap .form, .contact-wrap .contact-info {
     padding: 40px; }
   .contact-wrap .contact-info {
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgba(238, 30, 30, 0.5); }
     .contact-wrap .contact-info ul li {
       margin-bottom: 15px;
-      color: rgba(255, 255, 255, 0.5); }
+      color: rgba(41, 19, 19, 0.5); }
       .contact-wrap .contact-info ul li .wrap-icon {
         font-size: 20px;
         color: #fff;
