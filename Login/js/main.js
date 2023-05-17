@@ -36,7 +36,7 @@
             }
         }
     }
-// function for validati
+// function for valid
     function showValidate(input) {
         var thisAlert = $(input).parent();
 
