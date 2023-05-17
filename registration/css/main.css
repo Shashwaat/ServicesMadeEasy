@@ -183,9 +183,7 @@ fieldset, legend {
   padding: 0;
 }
 
-/**
- * Remove trailing margins from nested lists.
- */
+
 li > ol,
 li > ul {
   margin-bottom: 0;
